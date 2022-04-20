@@ -15,7 +15,9 @@
  */
 package com.example.android.miwok;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 // import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -27,5 +29,30 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
+    }
+
+
+    public void openNumbersList(View view){
+        //Method definition for numbers list
+        Intent i = new Intent(this, NumbersActivity.class);
+        startActivity(i);
+    }
+
+    public void openFamilyList(View view){
+        //Method definition for family list
+        Intent i = new Intent(this, FamilyActivity.class);
+        startActivity(i);
+    }
+
+    public void openColorsList(View view){
+        //Method definition for colors list
+        Intent i = new Intent(this, ColorsActivity.class);
+        startActivity(i);
+    }
+
+    public void openPhrasesList(View view){
+        //Method definition for phrases list
+        Intent i = new Intent(this, PhrasesActivity.class);
+        startActivity(i);
     }
 }

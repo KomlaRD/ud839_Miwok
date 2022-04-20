@@ -27,4 +27,16 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+
+    <!-- Category name for vocabulary words for phrases [CHAR LIMIT=20]-->
+    <string name="phrases">Phrases</string>
+
+    <!-- Category name for vocabulary words for colors [CHAR LIMIT=20]-->
+    <string name="colors">Colors</string>
+
+    <!-- Category name for vocabulary words for numbers [CHAR LIMIT=20]-->
+    <string name="numbers">Numbers</string>
+
+    <!-- Category name for vocabulary words for family [CHAR LIMIT=20]-->
+    <string name="family">Family</string>
 </resources>
